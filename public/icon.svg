@@ -1,0 +1,17 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @media (prefers-color-scheme: light) {
+      .bg { fill: #18181b; }
+      .letter { fill: #fafafa; }
+    }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #18181b; }
+      .letter { fill: #fafafa; }
+    }
+  </style>
+  <rect class="bg" width="180" height="180" rx="37" />
+  <!-- Bold "u" letterform -->
+  <text class="letter" x="28" y="144" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="148" font-weight="700" letter-spacing="-0.04em">u</text>
+  <!-- Amber dot — the "." accent -->
+  <circle cx="142" cy="138" r="12" fill="#f59e0b" />
+</svg>
