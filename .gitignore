@@ -4,7 +4,7 @@ dist/
 *.local
 .env
 .env.*
-
-worker
+.wrangler/
 
 SPEC.md
+function/
