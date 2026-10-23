@@ -43,10 +43,10 @@ export function createLandingScreen(cb: LandingCallbacks): HTMLElement {
   const header = document.createElement('header');
   header.className = 'mb-9 text-center';
   header.innerHTML = `
-    <h1 id="page-title" class="inline-flex items-center text-[2.5rem] font-semibold leading-none tracking-[-0.065em] text-[var(--text-primary)]">
+    <h1 id="page-title" class="inline-flex items-center text-[2.5rem] font-semibold leading-none tracking-[-0.065em] text-(--text-primary)">
       <span>unroll</span><span class="text-[#f59e0b]">.</span><span>chat</span>
     </h1>
-    <p class="mt-3 text-[15px] text-[var(--text-secondary)]">
+    <p class="mt-3 text-[15px] text-(--text-secondary)">
       Save any shared AI conversation as Markdown, PDF, HTML, JSON, or plain text.
     </p>
   `;
@@ -61,7 +61,7 @@ export function createLandingScreen(cb: LandingCallbacks): HTMLElement {
   const inputShell = document.createElement('div');
   inputShell.className =
     'share-link-shell flex h-14 w-full items-center rounded-lg border bg-[var(--surface-bg)] px-4 transition-colors duration-150';
-  inputShell.innerHTML = `<span class="shrink-0 text-[var(--text-muted)]">${ICON_LINK}</span>`;
+  inputShell.innerHTML = `<span class="shrink-0 text-(--text-muted)">${ICON_LINK}</span>`;
 
   const urlInput = document.createElement('input');
   urlInput.id = 'share-link';
